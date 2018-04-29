@@ -15,7 +15,6 @@ cd _book
 echo "now: $PWD"
 
 git init
-
 git config -–global user.name "niuDazhuang" 
 git config –-global user.email "dengwm666@icloud.com"
 
