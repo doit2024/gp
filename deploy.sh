@@ -22,8 +22,6 @@ git remote add upstream "https://$GH_TOKEN@github.com/niuDazhuang/gp.git"
 git fetch upstream
 git reset upstream/gh-pages
 
-echo "rustbyexample.com" > CNAME
-
 touch .
 
 git add -A .
