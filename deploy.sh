@@ -11,7 +11,8 @@ fi
 rev=$(git rev-parse --short HEAD)
 
 echo "before: $PWD"
-cd stage/_book
+mkdir _book
+cd _book
 echo "now: $PWD"
 
 git init
