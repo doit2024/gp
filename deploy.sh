@@ -10,7 +10,9 @@ fi
 
 rev=$(git rev-parse --short HEAD)
 
+echo "before: $PWD"
 cd stage/_book
+echo "now: $PWD"
 
 git init
 git config user.name "Woody Teng"

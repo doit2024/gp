@@ -4,8 +4,7 @@ install:
   - curl -L https://github.com/yihui/ubuntu-bin/releases/download/latest/pandoc.tar.gz | tar zx
 
 script:
-  - echo 'hello woody'
-  - pwd
+  - env
   - make check
   - make generate-ci
 
