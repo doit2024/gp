@@ -1,7 +1,7 @@
 default: check
 
 check: 
-	@echo "We're good!"
+	@echo "hello xxxxxxxxxxxx!"
 
 generate: readme.md
 	mkdir -p _site

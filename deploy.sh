@@ -10,7 +10,6 @@ fi
 
 rev=$(git rev-parse --short HEAD)
 
-echo "before: $PWD"
 mkdir _book
 cd _book
 echo "now: $PWD"
