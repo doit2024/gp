@@ -21,4 +21,5 @@ touch .
 
 git add -A .
 git commit -m "rebuild pages at ${rev}"
+echo 'done before push'
 git push -q upstream HEAD:gh-pages
