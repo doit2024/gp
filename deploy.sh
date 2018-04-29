@@ -18,7 +18,7 @@ git init
 git config user.name "Woody Teng"
 git config user.email "demgwm666@icloud.com"
 
-git remote add upstream "https://$GH_TOKEN@github.com/rust-lang/rust-by-example.git"
+git remote add upstream "https://$GH_TOKEN@github.com/niuDazhuang/gp.git"
 git fetch upstream
 git reset upstream/gh-pages
 
