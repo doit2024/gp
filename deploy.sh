@@ -10,7 +10,7 @@ echo "now: $PWD"
 git init
 
 git config --global user.name "niuDazhuang"
-git config --global user.email "denglei678@icloud.com"
+git config --global user.email "dengwm666@icloud.com"
 
 git remote add upstream "https://$GH_TOKEN@github.com/niuDazhuang/gp.git"
 git fetch upstream && git reset upstream/gh-pages
