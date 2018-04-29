@@ -16,7 +16,7 @@ echo "now: $PWD"
 
 git init
 
-git remote add upstream git://github.com/niuDazhuang/gp.git
+git remote add upstream https://github.com/niuDazhuang/gp.git
 git fetch upstream
 git reset upstream/gh-pages
 
